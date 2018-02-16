@@ -1,0 +1,3 @@
+function PrintName(){
+    alert('ty');
+}
