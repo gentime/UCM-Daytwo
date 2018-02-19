@@ -1,0 +1,48 @@
+body{
+    background-color: silver;
+
+}
+h1{
+    font-style: normal;
+    color: blue;
+    font-weight: bold;
+}
+#p1{
+    color: purple;
+    font-size: 20px;
+    font-style: italic;
+
+}
+#p2{
+    color: red;
+    font-size: 10px;
+    font-family: fantasy;
+}
+#nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+   display: block;
+   color: #000;
+   padding: 8px 16px;
+   text-decoration: none;
+
+}
+li a:hover {
+    background-color: #111;
+    color: white;
+}
+.active {
+    background-color: #4caf50;
+}
