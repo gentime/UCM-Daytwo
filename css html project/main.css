@@ -1,0 +1,11 @@
+body {
+background-color: gray;
+}
+p{
+    font-style: italic;
+    color: blue;
+}
+h1{
+    font-size: xx-large;
+    color: purple;
+}
