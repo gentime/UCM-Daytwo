@@ -24,7 +24,7 @@ function divi(){
     var cal = document.getElementById('cal').innerHTML = parseFloat(num1) / parseInt(num2);
 }
     function alertcal(){
-alert ( parseFloat('num1') + parseInt('num2'));
+alert ( parseFloat('num1')  + parseInt('num2') );
     };
 
 
