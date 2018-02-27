@@ -1,5 +1,5 @@
 function yourmom(){
-    var dim = document.getElementById('dim').value;
+    var area = document.getElementById('area').value;
     var cir = document.getElementById('cir').value;
-    var rad = document.getElementById('rad').innerHTML = ( Math.PI * (dim) ) / parseInt('cir');
-}
+    var rad = document.getElementById('rad').innerHTML =  Math.PI * (area)  * parseInt(area);
+};
