@@ -1,0 +1,21 @@
+{
+  "name": "contactinfo-app",
+  "version": "1.0.0",
+  "description": "App to store contactino results in mongo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "mongodb",
+    "moongoose",
+    "calculator"
+  ],
+  "author": "Ty",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.10"
+  }
+}

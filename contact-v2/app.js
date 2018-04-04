@@ -49,11 +49,11 @@ app.get("/bootstrap-combined.min.css", (req, res) =>{
 
 
 
-app.post("/inputs.ejs", (req, res) =>{
+app.post("/inputs", (req, res) =>{
     var myData = new contactV2(req.body);
     myData.save()
     .then(item =>{
-        res.send("/inputs.ejs");
+        res.send("inputs saved");
 
     })
 
