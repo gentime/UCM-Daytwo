@@ -1,0 +1,13 @@
+extends layout
+link(href='/public/stylesheets/style.css' rel='stylesheet')
+
+block content
+    h1= title
+    form#formAddTaskName(name="addtask",method="post",action="/addtask")
+        br 
+        input#inputTaskName(type="text",placeholder="taskname",name="taskname")
+        br        
+        input#inputTaskDesc(type="text",placeholder="taskdesc",name="taskdesc")
+        br
+        button#btnSubmit(type="submit") submit
+        

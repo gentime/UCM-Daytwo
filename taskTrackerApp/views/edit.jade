@@ -1,0 +1,10 @@
+extends layout
+
+
+block content 
+        each task, i in thistask
+            form#formAddTaskName(name="edit",method="post",action="/edit/#{task._id}")
+                input#inputTaskName(type="text", placeholder="#{task.task}", name="taskname")   
+                input#inputTaskDesc(type="text", placeholder="#{task.description}", name="taskdesc" )
+                button#btnSubmit(type="submit" name="edit" ) submit
+                

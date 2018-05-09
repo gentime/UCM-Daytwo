@@ -1,0 +1,37 @@
+extends layout
+link(href='/public/stylesheets/style.css' rel='stylesheet')
+
+block content  
+    h1.
+      Task List
+    table
+        tr
+            th task
+            th desc
+            th id
+            th Delete
+            th Edit
+        each task, i in tasklist
+                tr
+                    td= task.task
+                    td= task.description
+                    td= task._id
+                    td
+                        form(method="delete", action="deletetask/#{task._id}")
+                            button.btn.btn-primary(id="button" type="submit") delete
+                    td
+                        form(method="get", action="/tasks/#{task._id}")
+                            button.btn.btn-primary(type="submit") Edit
+                                                
+
+    form#formAddTaskName(name="addtask",method="post",action="/addtask")
+            br
+            input#inputTaskName(type="text",placeholder="task name",name="taskname")
+            br
+            br     
+            input#inputTaskDesc(type="text",placeholder="task desc",name="taskdesc")
+            br
+            br
+            button#btnSubmit(type="submit") submit
+
+            
