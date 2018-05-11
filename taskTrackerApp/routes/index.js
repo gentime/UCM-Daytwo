@@ -45,7 +45,7 @@ collection.remove({'_id': req.params._id}, function(err, task){
       if(!task){
         return res.status(404).send({Message: " task not found" + req.params._id });
       }
-      res.redirect('tasklist');
+      res.render('sucess', {message: " task removed"});
     });
 });
 
