@@ -1,4 +1,8 @@
 
+    body{
+        background-color: lightskyblue;
+        
+    }
     .container{
     display:grid;
     width: 300px;
@@ -9,7 +13,15 @@
     position: middle;
 
     }
-    
+    #back{
+        display:grid;
+    width: 300px;
+    margin: auto 24%;
+    grid-template-columns: 125%;
+    grid-template-rows:2;
+    vertical-align: middle;
+    position: middle;
+    }
     .bg-basic{
         background-color: #dddddd;
         color: white:
@@ -59,7 +71,7 @@
     text-align: right;
     border:0;
     background-color: black;
-    color: white;
+    color: limegreen;
     }
     .controls{
     display: inline-grid;
