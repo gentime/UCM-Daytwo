@@ -1,0 +1,79 @@
+
+    .container{
+    display:grid;
+    width: 300px;
+    margin: auto 24%;
+    grid-template-columns: 125%;
+    grid-template-rows:2;
+    vertical-align: middle;
+    position: middle;
+
+    }
+    
+    .bg-basic{
+        background-color: #dddddd;
+        color: white:
+    }
+    .bg-secondary{
+        background-color: #6c757d;
+        color: white;
+    }
+    .bg-dark{
+        background-color: #343a40;
+        color: white;
+    }
+    .bg-danger{
+        background-color: #dc3545;
+        color: white;
+    }
+    .bg-warning{
+        background-color: #ffc107;
+        color: white;
+
+
+    }
+    .bg-info{
+        background-color: #17a2b8;
+        color: white;
+    }
+    .bg-success{
+        background-color: #28a745;
+        color: white;
+    }
+    ul{
+    margin-top:20px;
+    }
+    ul li{
+    list-style-type: none;
+    display: inline;
+    margin:5px;
+    }
+    
+    a{
+    text-decoration: none;
+    }
+    .input{
+    height: 30px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: right;
+    border:0;
+    background-color: black;
+    color: white;
+    }
+    .controls{
+    display: inline-grid;
+    grid-template-columns: repeat(4,25%);
+    }
+    /*.controls button{
+    height: 38px;
+    border:0;
+    font-weight: bold;
+    font-size:20px;
+    margin:5px;
+    }*/
+    
+    .controls button:hover{
+    background-color:gray;
+    }
+    
