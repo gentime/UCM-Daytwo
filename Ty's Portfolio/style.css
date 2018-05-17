@@ -8,6 +8,10 @@
     border: 0;
 
 }
+
+.carh{
+    color: #ffbf00;
+}
 .navbar-brand {
    float: left;
    min-height: 55px;
@@ -33,13 +37,13 @@ background-color: #ffbf00;
     color: #fff;
     padding: 12px 22px;
     background: #ffbf00;
-    border: 2px solid #fff;
+    
 
 }
 #icon{
     max-width: 200px;
-    margin: 1% auto;
-    
+    margin: 4% auto;
+
 }
 
 @media (max-width: 600px){
@@ -47,4 +51,13 @@ background-color: #ffbf00;
         display: none;
         
     }
+
+#icon{
+    max-width: 150px;
 }
+h2{
+    font-size: 1.7em;
+}
+}
+
+

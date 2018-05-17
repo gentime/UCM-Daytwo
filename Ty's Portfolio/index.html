@@ -10,6 +10,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
+  
   <style>
   </style>
 </head>
@@ -42,7 +43,7 @@
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="index.html#about">About</a>
           </li>
           <li>
             <a href="#">Projects</a>
@@ -67,18 +68,18 @@
     </ol>
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="img/mountains.png">
+        <img src="img/img.png">
         <div class="carousel-caption">
-          <h1>Ty's Portfolio</h1>
+          <h1 class="carh">Ty's Portfolio</h1>
           <br>
-          <button type="button" class="btn btn-default">Click to get to know me</button>
+          <!--<button type="button" class="btn btn-default" href="index.html#about">Click to get to know me</button>-->
         </div>
       </div><!-- end active slide-->
       <div class="item">
-        <img src="img/snow.png">
+        <img src="img/bc.jpg">
       </div>
       <div class="item">
-          <img src="img/red.png">
+          <img src="img/js.jpg">
         </div>
     </div>
   </div>
@@ -95,9 +96,10 @@
 <!-- end slider control-->
   </div>
   <!-- end slider-->
-  <div class="container text-center"></div>
-          <h2>Ty's Portfolio is powered by the following:</h2>
-         
+  <div class="container text-center">
+          <h2>I built this page useing the following:</h2>
+
+</div> 
  <div class="row">
    <div class="col-sm-4">
      <img src="img/html5.png" id="icon">
@@ -114,6 +116,108 @@
             <h4>CSS</h4>
           </div>
           </div>
+<br>
+<br>
+          <div id="about" class="container">
+            <div class="row"> 
+              <div class="col-md-6">
+                <h4>About Ty</h4>
+                <p>
+                Welcome! My name is Ty. I'm not much for words, but this page is show what I've leanred from JS Class at UCM. <br>
+                </p>
+                </div>
+                <div class="col-md-6">
+                  <img src="img/TT.PNG" class="img-responsive">
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+              
+               <div class="container">
+                  <div class="row">
+                <div class="col-md-6">    
+              </div>
+              </div>
+              </div>
+              </div>
+            </div>
+
+             
+          </div>
+
+          <div class="container"> 
+            <div class="row"> 
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h4>Class projects and more!</h4>
+                <p><div class="list-group">
+                  <a href="https:/github.com/gentime" class="list-group-item list-group-item-action list-group-item-success">contact info</a>
+                  <a href="https:/github.com/gentime" class="list-group-item list-group-item-action list-group-item-warning">task tracker app</a>
+                  <a href="https:/github.com/gentime/" class="list-group-item list-group-item-action list-group-item-danger">Calcutalor</a>
+
+                </p>
+                </div>
+              </div>
+              </div>
+              </div>
+              
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <img src="img/sass.png" class="img-responsive">
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="container"> 
+              <div class="row"> 
+                  <h4><a href="#hidden" data-toggle="collapse">Random Calcutalor</a></h4>
+                  <div id="hidden" class="collapse">
+                  
+                     <div class="container" align="center">
+                      <h5>Ty's calculator</h5>
+                      <input type="text" class="input" id="txtinput2" readonly='true' />
+                      <input type="text" class="input" id="txtoperator" readonly='true'/>
+                      <input type="text" class="input" id="txtinput1" readonly='true'/>
+                  
+                
+          
+          
+                      
+          
+                  <!--cal -->    <div class="controls" align="center">
+                  <button type="button" class="btn bg-danger" disabled='disabled'><</button>
+                      <button class="btn bg-warning" onclick="del()"  >del</button>
+                      <button class="btn bg-info" onclick="reset()">c</button>
+                      <button class="btn bg-dark" onclick="onClick(event)">/</button>           
+                      <button  class="btn bg-secondary"onclick="onClick(event)">7</button>
+                      <button class="btn bg-secondary" onclick="onClick(event)">8</button>
+                      <button   class="btn bg-secondary" onclick="onClick(event)">9</button>
+                      <button class="btn bg-dark" onclick="onClick(event)">*</button>
+                      <button class="btn bg-secondary"  onclick="onClick(event)">4</button>
+                      <button  class="btn bg-secondary" onclick="onClick(event)">5</button>
+                      <button  class="btn bg-secondary" onclick="onClick(event)">6</button>
+                      <button  class="btn bg-dark" onclick="onClick(event)">-</button>
+                      <button class="btn bg-secondary" onclick="onClick(event)">1</button>
+                      <button  class="btn bg-secondary" onclick="onClick(event)">2</button>
+                      <button  class="btn bg-secondary" onclick="onClick(event)">3</button>
+                      <button  class="btn bg-dark" onclick="onClick(event)">+</button> 
+                      <button class="btn bg-basic" disabled='disabled'></button>
+                      <button  class="btn bg-secondary" onclick="onClick(evnt)">0</button>
+                      <button  class="btn bg-dark" onclick="onDecimal()">.</button>
+                      <button class="btn bg-success btn-lg" onclick="calculate()">=</button>
+                  </div>
+                  </div><!--cal area-->
+              </div>
+
+
+
+                  </div>
+                  </div>
+                  </div>
+                  
+                  
+                </div>
 </body>
 
 </html>
