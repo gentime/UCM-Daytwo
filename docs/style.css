@@ -1,3 +1,6 @@
+body{
+    background-color: lightgrey;
+}
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -8,9 +11,23 @@
     border: 0;
 
 }
+.carousel-control{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+width: 5%;
+font-size: 20px;
+color: #fff;
+text-align: center;
+text-shadow: 0 1px 2px rgba(0,0,0,.6);
+background-color: rgba(0,0,0,0);
+filter: alpha(opacity=50);
+opacity: .5;
+}
 
 .carh{
-    color: #ffbf00;
+    color: blue;
 }
 .navbar-brand {
    float: left;
@@ -36,7 +53,6 @@ background-color: #ffbf00;
     font-size: 18px;
     color: #fff;
     padding: 12px 22px;
-    background: #ffbf00;
     
 
 }
